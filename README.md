@@ -23,7 +23,7 @@ Para compilar el proyecto para producción
 
 ##  Compilar el css
 
-Este proyecto utiliZa stylus como pre procesador de css.<br />
+Este proyecto utiliza stylus como pre procesador de css.<br />
 Dentro de la carpeta stylus, se puede ejecutar:
 
 ### `stylus -w -c style.styl`
