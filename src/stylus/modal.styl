@@ -1,0 +1,30 @@
+.modal{
+  z-index 2
+  h2{
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .close{
+    float: right
+  }
+}
+.modal-container{
+  width 100vw
+  height 100vh
+  display grid
+  position: fixed
+  top 0px
+  left 0px
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  .close-zone{
+    position absolute
+    width 100vw
+    height 100vh
+    top 0px
+    left 0px
+    background rgba(0,0,0,0.3)
+    cursor pointer
+  }
+}

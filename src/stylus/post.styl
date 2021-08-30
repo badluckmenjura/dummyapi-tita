@@ -1,0 +1,37 @@
+.post{
+  max-width 507px
+  box-sizing: border-box;
+  margin-bottom 10px
+  &:nth-child(even){
+    margin-left 5px
+  }
+  &:nth-child(odd){
+    margin-right 5px
+  }
+
+  .picture{
+    object-fit: cover;
+    height: 320px;
+    min-width : 480px;
+  }
+
+  ul{
+    li{
+      display inline-block
+      background deeppink
+      color white
+      padding 4px 8px
+      margin 0 3px 3px 3px
+      border-radius 4px
+      font-size: 12px;
+    }
+  }
+  .actions{
+    margin-top 15px
+    display flex
+    button{
+      flex 1
+      margin 3px
+    }
+  }
+}

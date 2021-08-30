@@ -1,0 +1,98 @@
+backgroundColor = rgba(217, 226, 226, 1);
+defaultColor = rgba(43, 43, 43, 1);
+gradiendColor = linear-gradient(to right, rgb(60, 76, 173), rgb(194, 76, 162), rgb(255, 109, 125), rgb(255, 176, 93), rgb(249, 248, 113))
+fontMain = 'Roboto', sans-serif;
+fontHizca = 'Roboto', sans-serif;
+
+vendor(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  -ms-{prop} args
+  -o-{prop} args
+  {prop} args
+
+transform()
+  vendor('transform', arguments)
+
+transform-origin()
+  vendor('transform-origin', arguments)
+
+transition()
+  vendor('transition', arguments)
+
+animation-duration()
+  vendor('animation-duration', arguments)
+
+animation-fill-mode()
+  vendor('animation-fill-mode', arguments)
+
+animation-name()
+  vendor('animation-name', arguments)
+
+animation-timing-function()
+  vendor('animation-timing-function', arguments)
+
+animation-delay()
+  vendor('animation-delay', arguments)
+
+box-shadow()
+  vendor('box-shadow', arguments)
+
+box-shadow()
+  vendor('box-shadow', arguments)
+
+background()
+  background: -moz-arguments
+  background: -webkit-arguments
+  background: -o-arguments
+  background: -ms-arguments
+  background: arguments
+
+user-select()
+  vendor('user-select', arguments)
+
+box-sizing()
+  vendor('box-sizing', arguments)
+
+
+body{
+  font-family: fontMain;
+}
+footer{
+  text-align: right 
+  padding: 15px
+  img{
+    width: 20%;
+  }
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+h1{
+  font-family: fontHizca;
+  font-size: 26px;
+  font-weight: 700
+  padding: 10px 0;
+}
+h2{
+  font-family: fontHizca;
+  font-size: 19px;
+  font-weight: 400
+  padding: 20px 8px 5px;
+}
+h3{
+  font-family: fontHizca;
+  font-size: 15px;
+  font-weight: 400
+  color: #545454;
+}
+h4,label{
+  font-family: fontHizca;
+  font-size: 14px;
+  font-weight: 400
+}
+
+p{
+  padding: 5px;
+}
