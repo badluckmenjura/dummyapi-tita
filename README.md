@@ -43,7 +43,7 @@ raiz
     ├── app
     │   (store)
     ├── features
-    │   (componentes)
+    │   (componetes)
     └── stylus
         (estilos css)
 ```
